@@ -1,0 +1,56 @@
+name: 🐞 Bug Report
+description: Report a bug or unexpected behavior in Thoughtfol.io MVP
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out this form to help us identify and fix the bug.
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current Behavior
+      description: What actually happens
+      placeholder: Describe the issue or bug you encountered.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen
+      placeholder: Describe what you thought should happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Step by step instructions to reproduce the bug
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: System info, browser, versions, or other context
+      placeholder: |
+        OS: 
+        Browser: 
+        Version: 
+    validations:
+      required: false
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Screenshots, logs, or other helpful info
+    validations:
+      required: false
+
