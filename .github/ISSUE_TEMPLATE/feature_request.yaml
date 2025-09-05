@@ -1,0 +1,41 @@
+name: 🚀 Feature Request
+description: Suggest a new feature or enhancement for Thoughtfol.io MVP
+title: "[Feature] "
+labels: ["feature", "backlog"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out this form to suggest a new feature or enhancement.
+  - type: textarea
+    id: user_story
+    attributes:
+      label: User Story
+      description: Describe the user story and who benefits from this feature
+      placeholder: As a [type of user], I want [feature] so that [benefit].
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define testable conditions that show the feature is complete
+      placeholder: - [ ] Criteria 1\n- [ ] Criteria 2\n- [ ] Criteria 3
+    validations:
+      required: true
+  - type: textarea
+    id: definition_of_done
+    attributes:
+      label: Definition of Done
+      description: What must be complete to consider this feature done (code, tests, docs)
+      placeholder: Code written, reviewed, tests passing, documentation updated.
+    validations:
+      required: true
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: Any extra context or info related to this feature
+    validations:
+      required: false
