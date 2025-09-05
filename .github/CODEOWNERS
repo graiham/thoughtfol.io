@@ -1,0 +1,4 @@
+/backend/ @cto-agent-account
+/frontend/ @cto-agent-account
+/tests/ @qa-agent-account
+* @graiham
